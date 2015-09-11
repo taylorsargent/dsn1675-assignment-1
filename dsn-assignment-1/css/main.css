@@ -88,19 +88,19 @@ h1 {
   width: 100%;
 }
 
-.giza-1 {
+.info-1 {
   float: left;
   padding: 0.5em;
   text-align: center;
 }
 
-.giza-2 {
+.info-2 {
   float: left;
   padding: 0.5em;
   text-align: center;
 }
 
-.giza-3 {
+.info-3 {
   float: left;
   padding: 0.5em;
   text-align: center;
@@ -110,4 +110,104 @@ h1 {
   color: #b808ff;
   text-decoration: none;
   font-size: 0.90em;
+  display:block;
+}
+
+.tickets {
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.ticket {
+  display: inline-block;
+  text-align: center;
+}
+
+.price {
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 5em;
+  list-style-type: none;
+}
+
+.price li {
+  display: inline-block;
+  background-color: white;
+  border: 1px #b808ff solid;
+}
+
+.price a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.price a:hover {
+  background-color: #b808ff;
+  color: white;
+  text-decoration: none;
+}
+
+.member {
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.memb {
+  display: block;
+  text-align: center;
+}
+
+.week ol {
+  text-decoration: none;
+}
+
+.week h3 {
+  color: #b808ff;
+  text-decoration: none;
+}
+
+.week li {
+  text-decoration: none;
+}
+
+footer {
+border: 5px solid #b808ff;
+  margin: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+.footer {
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline-block;
+  background-color: white;
+  border: 1px #b808ff solid;
+  font-size: 0.75em;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #b808ff;
+}
+
+.footer a:hover {
+  background-color: #b808ff;
+  color: white;
+  text-decoration: none;
 }
