@@ -94,18 +94,10 @@ h1 {
   text-align: center;
 }
 
-.giza-1 dt {
-  color: #b808ff;
-}
-
 .giza-2 {
   float: left;
   padding: 0.5em;
   text-align: center;
-}
-
-.giza-2 dt {
-  color: #b808ff;
 }
 
 .giza-3 {
@@ -114,6 +106,8 @@ h1 {
   text-align: center;
 }
 
-.giza-3 dt {
+.link a {
   color: #b808ff;
+  text-decoration: none;
+  font-size: 0.90em;
 }
