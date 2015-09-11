@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0.5em;
 }
 
 *, *::before, *::after {
@@ -19,20 +19,27 @@ h1 {
 }
 
 .header {
-  background-color: beige;
   padding: 1em;
+}
+
+.logo {
+  float: left;
+  height: 2em;
+  width: 4em;
+  margin-right: 1em;
+  margin-left: 2em;
 }
 
 .nav {
   margin: 0;
   padding: 0.25em;
   list-style-type: none;
-  background-color: red;
 }
 
 .nav li {
   display: inline-block;
   background-color: white;
+  border: 1px #b808ff solid;
 }
 
 .nav a {
@@ -43,6 +50,7 @@ h1 {
 }
 
 .nav a:hover {
-  background-color: pink;
+  background-color: #b808ff;
   color: white;
+  text-decoration: none;
 }
