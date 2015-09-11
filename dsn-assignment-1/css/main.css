@@ -54,3 +54,8 @@ h1 {
   color: white;
   text-decoration: none;
 }
+
+.banner-img {
+  position: relative;
+  width: 100%;
+}
