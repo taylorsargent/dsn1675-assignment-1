@@ -78,3 +78,42 @@ h1 {
   padding: 2em;
   text-align: center;
 }
+
+.title {
+  display: block;
+  padding-left: 5em;
+}
+
+.img-1 {
+  width: 100%;
+}
+
+.giza-1 {
+  float: left;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.giza-1 dt {
+  color: #b808ff;
+}
+
+.giza-2 {
+  float: left;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.giza-2 dt {
+  color: #b808ff;
+}
+
+.giza-3 {
+  float: left;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.giza-3 dt {
+  color: #b808ff;
+}
