@@ -58,4 +58,23 @@ h1 {
 .banner-img {
   position: relative;
   width: 100%;
+  opacity: 0.5;
+}
+
+.banner-txt h2 {
+  font-size: 1.5em;
+}
+
+.banner-txt p {
+  font-size: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.banner-txt {
+  position: absolute;
+  float: left;
+  top: 25%;
+  padding: 2em;
+  text-align: center;
 }
