@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   margin: 0;
-  padding: 0.5em;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -16,6 +16,8 @@ body {
 h1 {
   padding: 0;
   margin: 0;
+  font-size: 2em;
+  text-align: center;
 }
 
 .header {
@@ -27,7 +29,7 @@ h1 {
   height: 2em;
   width: 4em;
   margin-right: 1em;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .nav {
@@ -62,11 +64,11 @@ h1 {
 }
 
 .banner-txt h2 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .banner-txt p {
-  font-size: 1em;
+  font-size: 0.8em;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -74,14 +76,14 @@ h1 {
 .banner-txt {
   position: absolute;
   float: left;
-  top: 25%;
+  top: 27%;
   padding: 2em;
   text-align: center;
 }
 
 .title {
   display: block;
-  padding-left: 5em;
+  text-align: center;
 }
 
 .img-1 {
@@ -129,7 +131,7 @@ h1 {
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  padding-left: 5em;
+  padding-left: 1em;
   list-style-type: none;
 }
 
@@ -179,7 +181,7 @@ h1 {
 }
 
 footer {
-border: 5px solid #b808ff;
+  background-color: #b808ff;
   margin: 0;
   padding: 1em;
   width: 100%;
