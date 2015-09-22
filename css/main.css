@@ -1,7 +1,17 @@
+@-moz-viewport {width: device-width; scale: 1; }
+@-ms-viewport {width: device-width; scale: 1; }
+@-o-viewport {width: device-width; scale: 1; }
+@-webkit-viewport {width: device-width; scale: 1; }
+@viewport {width: device-width; scale: 1; }
+
 html {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -21,39 +31,39 @@ h1 {
 }
 
 .header {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .logo {
-  float: left;
-  height: 2em;
-  width: 4em;
-  margin-right: 1em;
-  margin-left: 1em;
+  float: center;
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .nav {
   margin: 0;
-  padding: 0.25em;
+  padding: 0.2em;
   list-style-type: none;
+  background-color: #b808ff;
+  text-align: left;
 }
 
 .nav li {
-  display: inline-block;
-  background-color: white;
+  display: block;
   border: 1px #b808ff solid;
 }
 
 .nav a {
   display: inline-block;
-  padding: 0.5em;
+  padding: 0.25em;
   text-decoration: none;
   color: black;
 }
 
 .nav a:hover {
-  background-color: #b808ff;
-  color: white;
+  background-color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -61,6 +71,7 @@ h1 {
   position: relative;
   width: 100%;
   opacity: 0.5;
+  padding-top: 0.25em;
 }
 
 .banner-txt h2 {
@@ -68,15 +79,15 @@ h1 {
 }
 
 .banner-txt p {
-  font-size: 0.8em;
-  padding-left: 2em;
-  padding-right: 2em;
+  font-size: 0.6em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .banner-txt {
   position: absolute;
   float: left;
-  top: 27%;
+  top: 38%;
   padding: 2em;
   text-align: center;
 }
@@ -93,33 +104,40 @@ h1 {
 .info-1 {
   float: left;
   padding: 0.5em;
-  text-align: center;
+  text-align: left;
+  display: block;
 }
 
 .info-2 {
   float: left;
   padding: 0.5em;
-  text-align: center;
+  text-align: left;
+  display: block;
 }
 
 .info-3 {
   float: left;
   padding: 0.5em;
-  text-align: center;
+  text-align: left;
+  display: block;
 }
 
 .link a {
   color: #b808ff;
   text-decoration: none;
   font-size: 0.90em;
-  display:block;
+  display: block;
+  float: left;
+  padding-bottom: 0.25em;
 }
 
 .tickets {
   display: block;
   float: left;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 0.5em;
+  color: #b808ff;
+  margin-left: 2.5em;
 }
 
 .ticket {
@@ -131,8 +149,9 @@ h1 {
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  padding-left: 1em;
   list-style-type: none;
+  float: left;
+  font-size: 0.95em;
 }
 
 .price li {
@@ -158,8 +177,9 @@ h1 {
   display: block;
   float: left;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em;
+  padding-top: 0.5em;
+  color: #b808ff;
+  margin-left: 1.75em;
 }
 
 .memb {
@@ -167,13 +187,20 @@ h1 {
   text-align: center;
 }
 
+.week-list {
+  text-align: center;
+  float: left;
+}
+
 .week ol {
   text-decoration: none;
+  list-style-type: none;
 }
 
 .week h3 {
   color: #b808ff;
   text-decoration: none;
+  text-align: left;
 }
 
 .week li {
@@ -209,7 +236,19 @@ footer {
 }
 
 .footer a:hover {
-  background-color: #b808ff;
-  color: white;
+  background-color: white;
+  color: black;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 290px) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
 }
