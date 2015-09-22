@@ -476,15 +476,15 @@ footer {
   }
 
   .banner-txt p {
-    font-size: 1em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    font-size: 0.9em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
 
   .banner-txt {
     position: absolute;
     float: left;
-    top: 30%;
+    top: 40%;
     padding: 2em;
     text-align: center;
   }
@@ -541,9 +541,68 @@ footer {
 
   .memb {
     display: block;
-    float:left;
     text-align: center;
   }
+
+  .playing-text {
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  .week-list {
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+  }
+
+  .week ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+  }
+
+  .week h3 {
+    color: #b808ff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    clear: both;
+    text-align: left;
+  }
+
+  .week li {
+    text-decoration: none;
+    display: block;
+    float: left;
+  }
+
+  .weekend {
+    display: block;
+    float: left;
+  }
+
+  .monday {
+    display: block;
+    float: left;
+  }
+  .tuesday {
+    display: block;
+    float: left;
+  }
+  .wednesday {
+    display: block;
+    float: left;
+  }
+  .thursday {
+    display: block;
+    float: left;
+  }
+  .friday {
+    display: block;
+    float: left;
+  }
+
 
   .footer {
     margin: 0;
@@ -571,4 +630,592 @@ footer {
     color: #b808ff;
     text-decoration: none;
   }
+}
+
+@media only screen and (min-width: 650px) {
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #b808ff;
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+    border: 1px #b808ff solid;
+  }
+
+  .nav a {
+    display: inline-block;
+    padding: 0.25em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav a:hover {
+    background-color: white;
+    color: #b808ff;
+    text-decoration: none;
+    padding: 0.25em;
+  }
+
+  .banner-txt h2 {
+    font-size: 1.5em;
+  }
+
+  .banner-txt p {
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+  }
+
+  .banner-txt {
+    position: absolute;
+    float: left;
+    top: 45%;
+    padding: 2em;
+    text-align: center;
+  }
+
+  .tickets {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    text-align: left;
+  }
+
+  .ticket {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .price {
+    margin: 0;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    list-style-type: none;
+    float: left;
+    font-size: 1em;
+  }
+
+  .price li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+  }
+
+  .price a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .price a:hover {
+    background-color: #b808ff;
+    color: white;
+    text-decoration: none;
+  }
+
+  .member {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    padding-left: 1em;
+    clear: both;
+  }
+
+  .memb {
+    display: block;
+    text-align: center;
+  }
+
+  .playing-text {
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  .playing-title {
+    display: block;
+    clear: both;
+  }
+
+  .week-list {
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+  }
+
+  .week ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+  }
+
+  .week h3 {
+    color: #b808ff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    clear: both;
+    text-align: left;
+  }
+
+  .week li {
+    text-decoration: none;
+    display: block;
+    float: left;
+  }
+
+  .weekend {
+    display: block;
+    float: left;
+  }
+
+  .monday {
+    display: block;
+    float: left;
+  }
+  .tuesday {
+    display: block;
+    float: left;
+  }
+  .wednesday {
+    display: block;
+    float: left;
+  }
+  .thursday {
+    display: block;
+    float: left;
+  }
+  .friday {
+    display: block;
+    float: left;
+  }
+
+
+  .footer {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+  }
+
+  .footer li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .footer a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer a:hover {
+    color: #b808ff;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .logo {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #b808ff;
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+    border: 1px #b808ff solid;
+  }
+
+  .nav a {
+    display: inline-block;
+    padding: 0.25em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav a:hover {
+    background-color: white;
+    color: #b808ff;
+    text-decoration: none;
+    padding: 0.25em;
+  }
+
+  .banner-txt h2 {
+    font-size: 1.5em;
+  }
+
+  .banner-txt p {
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+  }
+
+  .banner-txt {
+    position: absolute;
+    float: left;
+    top: 30%;
+    padding: 8em;
+    text-align: center;
+  }
+
+  .tickets {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    text-align: left;
+  }
+
+  .ticket {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .price {
+    margin: 0;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    list-style-type: none;
+    float: left;
+    font-size: 1em;
+  }
+
+  .price li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+  }
+
+  .price a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .price a:hover {
+    background-color: #b808ff;
+    color: white;
+    text-decoration: none;
+  }
+
+  .member {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    padding-left: 1em;
+    clear: both;
+  }
+
+  .memb {
+    display: block;
+    text-align: center;
+  }
+
+  .playing-text {
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  .playing-title {
+    display: block;
+    clear: both;
+  }
+
+  .week-list {
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+  }
+
+  .week ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+  }
+
+  .week h3 {
+    color: #b808ff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    clear: both;
+    text-align: left;
+  }
+
+  .week li {
+    text-decoration: none;
+    display: block;
+    float: left;
+  }
+
+  .weekend {
+    display: block;
+    float: left;
+  }
+
+  .monday {
+    display: block;
+    float: left;
+  }
+  .tuesday {
+    display: block;
+    float: left;
+  }
+  .wednesday {
+    display: block;
+    float: left;
+  }
+  .thursday {
+    display: block;
+    float: left;
+  }
+  .friday {
+    display: block;
+    float: left;
+  }
+
+
+  .footer {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+  }
+
+  .footer li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .footer a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer a:hover {
+    color: #b808ff;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+
+  .banner-txt h2 {
+    font-size: 1.5em;
+  }
+
+  .banner-txt p {
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+  }
+
+  .banner-txt {
+    position: absolute;
+    float: left;
+    top: 20%;
+    padding: 12em;
+    text-align: center;
+  }
+
+  .tickets {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    text-align: left;
+  }
+
+  .ticket {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .price {
+    margin: 0;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    list-style-type: none;
+    float: left;
+    font-size: 1em;
+  }
+
+  .price li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+  }
+
+  .price a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .price a:hover {
+    background-color: #b808ff;
+    color: white;
+    text-decoration: none;
+  }
+
+  .member {
+    display: block;
+    float: left;
+    padding-top: 0.5em;
+    color: #b808ff;
+    padding-left: 1em;
+    clear: both;
+  }
+
+  .memb {
+    display: block;
+    text-align: center;
+  }
+
+  .playing-text {
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  .playing-title {
+    display: block;
+    clear: both;
+  }
+
+  .week-list {
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+  }
+
+  .week ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+  }
+
+  .week h3 {
+    color: #b808ff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    clear: both;
+    text-align: left;
+  }
+
+  .week li {
+    text-decoration: none;
+    display: block;
+    float: left;
+    clear: both;
+  }
+
+  .weekend {
+    display: block;
+    float: left;
+  }
+
+  .monday {
+    display: block;
+    float: left;
+  }
+  .tuesday {
+    display: block;
+    float: left;
+  }
+  .wednesday {
+    display: block;
+    float: left;
+  }
+  .thursday {
+    display: block;
+    float: left;
+  }
+  .friday {
+    display: block;
+    float: left;
+  }
+
+
+  .footer {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+  }
+
+  .footer li {
+    display: inline-block;
+    background-color: white;
+    border: 1px #b808ff solid;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .footer a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer a:hover {
+    color: #b808ff;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1100px){
+
+  .banner-txt h2 {
+    font-size: 1.5em;
+  }
+
+  .banner-txt p {
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+  }
+
+  .banner-txt {
+    position: absolute;
+    float: left;
+    top: 20%;
+    padding: 17em;
+    text-align: center;
+  }
+
 }
