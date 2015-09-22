@@ -46,7 +46,7 @@ h1 {
   padding: 0.2em;
   list-style-type: none;
   background-color: #b808ff;
-  text-align: left;
+  text-align: center;
 }
 
 .nav li {
@@ -75,11 +75,11 @@ h1 {
 }
 
 .banner-txt h2 {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 .banner-txt p {
-  font-size: 0.6em;
+  font-size: 0.9em;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
@@ -87,7 +87,7 @@ h1 {
 .banner-txt {
   position: absolute;
   float: left;
-  top: 38%;
+  top: 40%;
   padding: 2em;
   text-align: center;
 }
@@ -134,10 +134,9 @@ h1 {
 .tickets {
   display: block;
   float: left;
-  text-align: center;
   padding-top: 0.5em;
   color: #b808ff;
-  margin-left: 2.5em;
+  padding-left: 1em;
 }
 
 .ticket {
@@ -147,11 +146,11 @@ h1 {
 
 .price {
   margin: 0;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   list-style-type: none;
   float: left;
-  font-size: 0.95em;
+  font-size: 1em;
 }
 
 .price li {
@@ -176,15 +175,31 @@ h1 {
 .member {
   display: block;
   float: left;
-  text-align: center;
   padding-top: 0.5em;
   color: #b808ff;
-  margin-left: 1.75em;
+  padding-left: 1em;
 }
 
 .memb {
   display: block;
+  float:left;
   text-align: center;
+}
+
+.now-playing {
+  float: left;
+  text-align: center;
+}
+
+.playing-title {
+  display: block;
+  float: left;
+  margin: 0;
+}
+
+.playing-text {
+  display: block;
+  float: left;
 }
 
 .week-list {
@@ -195,16 +210,47 @@ h1 {
 .week ol {
   text-decoration: none;
   list-style-type: none;
+  display: block;
 }
 
 .week h3 {
   color: #b808ff;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
+  display: block;
+  float: left;
 }
 
 .week li {
   text-decoration: none;
+  display: block;
+  float: left;
+}
+
+.weekend {
+  display: block;
+  float: left;
+}
+
+.monday {
+  display: block;
+  float: left;
+}
+.tuesday {
+  display: block;
+  float: left;
+}
+.wednesday {
+  display: block;
+  float: left;
+}
+.thursday {
+  display: block;
+  float: left;
+}
+.friday {
+  display: block;
+  float: left;
 }
 
 footer {
@@ -239,16 +285,4 @@ footer {
   background-color: white;
   color: black;
   text-decoration: none;
-}
-
-@media only screen and (min-width: 290px) {
-
-  .nav {
-    text-align: center;
-  }
-
-  .nav li {
-    display: inline-block;
-  }
-
 }
